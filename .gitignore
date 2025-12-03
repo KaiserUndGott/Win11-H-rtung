@@ -1,0 +1,44 @@
+# Windows-Hardening .gitignore
+
+# Logs
+Logs/
+*.log
+
+# Backups (enthalten möglicherweise sensible Daten)
+Backups/
+*.json
+
+# PowerShell Transcripts
+*.txt
+PSTranscripts/
+
+# Temporäre Dateien
+*.tmp
+*.temp
+~$*
+
+# System-spezifische Dateien
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Reports (könnten sensible Informationen enthalten)
+Reports/
+*.html
+
+# Benutzerdefinierte Konfigurationen
+config.local.ps1
+*-local.ps1
+
+# Windows-spezifische
+*.lnk
+
+# Sicherheits-Exports
+*.pol
+*.inf
+*.csv
+secedit-export.cfg
+
+# Test-Dateien
+test-*.ps1
+*-test.ps1
